@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <?php
 $link = "./sentiment_reviews.json";
 $jsonData = file_get_contents($link);
@@ -53,8 +56,7 @@ foreach ($reviews_after as $after) {
 }
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
+
 
 <head>
     <meta charset="UTF-8">
