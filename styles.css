@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('./Poppins-Regular.ttf') format('truetype')
+}
+
+* {
+    font-family: 'Poppins';
+}
+
+.charts {
+    display: flex;
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+
+.charts > a > div {
+    border-radius: 2px;
+}
+
+#chartContainer {
+    border-right: 0.5px solid;
+}
+
+#chartContainer2 {
+    border-left: 0.2px solid;
+}
+
+.stats {
+    width: 80%;
+    margin: 1rem auto;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.before-reviews, .after-reviews {
+    margin: 1rem auto;
+    border-radius: 5px;  
+    background-color: white;
+    width: 80%;
+}
+
+header {
+    margin-bottom: 1rem;
+    background: linear-gradient(#FCA311, rgb(255, 204, 109));
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 100;
+    background: linear-gradient(#FCA311, rgb(255, 204, 109));
+    border-bottom: 0.5px solid #FCA311;
+    border-radius: 5px 5px 0 0;
+}
+
+body {
+    background-color: #162d5e;
+    margin: 0;
+}
+
+header > span {
+    padding-left: 1rem;
+}
+
+#stats-table_wrapper, #before-reviews-table_wrapper, #after-reviews-table_wrapper {
+    padding: 1rem;
+}
+
+#chartContainer, #chartContainer2 {
+    background-color: white;
+}
+
+.charts > a {
+    width: 50%;
+}
+
+table#stats-table {
+    margin: 0 auto;
+    padding: 1rem 0 2rem 0;
+    width: 70%;
+}
+
+#stats-table > thead > tr > th, #stats-table > tfoot > tr > th {
+    border: 1px solid;
+}
+
+#stats-table > tbody > tr > td {
+    border: 1px solid #bbb;
+    text-align: center;
+}
+
+#chartContainerLarge, #chartContainer2Large {
+    background-color: white;
+}
+
+.stats > span {
+    font-size: 12px;
+    padding-left: 1rem;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 480px;
+    margin: 0 auto;
+}
+
+button:hover {
+    cursor: pointer;
+    background: linear-gradient(#FCA311, darkorange);
+}
+
+button:focus {
+    background: linear-gradient(#FCA311, darkorange);
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.searchButtonLabel {
+    padding: 3px 6px;
+    font-size: 13.3px;
+    background: linear-gradient(#FCA311, rgb(255, 204, 109));
+    border: 0.5px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+}
+
+.searchButtonLabel:hover {
+    background: linear-gradient(#FCA311, white);
+}
+
+input[type="checkbox"]:checked + .searchButtonLabel {
+    background: linear-gradient(#FCA311, white);
+}
+
+.paginate_input {
+    width: 50px;
+}
